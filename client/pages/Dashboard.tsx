@@ -1,8 +1,14 @@
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Waves, BarChart3, MapPin, ArrowLeft } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Waves, BarChart3, MapPin, ArrowLeft } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Dashboard() {
   return (
@@ -15,13 +21,35 @@ export default function Dashboard() {
               <div className="p-2 bg-ocean-medium rounded-lg">
                 <Waves className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-ocean-deep">CoastalAlert</span>
+              <span className="text-xl font-bold text-ocean-deep">
+                CoastalAlert
+              </span>
             </Link>
             <div className="hidden md:flex space-x-8">
-              <Link to="/#features" className="text-foreground hover:text-ocean-medium transition-colors">Features</Link>
-              <Link to="/#users" className="text-foreground hover:text-ocean-medium transition-colors">Users</Link>
-              <Link to="/#impact" className="text-foreground hover:text-ocean-medium transition-colors">Impact</Link>
-              <Link to="/#contact" className="text-foreground hover:text-ocean-medium transition-colors">Contact</Link>
+              <Link
+                to="/#features"
+                className="text-foreground hover:text-ocean-medium transition-colors"
+              >
+                Features
+              </Link>
+              <Link
+                to="/#users"
+                className="text-foreground hover:text-ocean-medium transition-colors"
+              >
+                Users
+              </Link>
+              <Link
+                to="/#impact"
+                className="text-foreground hover:text-ocean-medium transition-colors"
+              >
+                Impact
+              </Link>
+              <Link
+                to="/#contact"
+                className="text-foreground hover:text-ocean-medium transition-colors"
+              >
+                Contact
+              </Link>
             </div>
             <Button>Get Early Access</Button>
           </div>
@@ -38,7 +66,8 @@ export default function Dashboard() {
               </div>
               <CardTitle className="text-2xl">Dashboard Coming Soon</CardTitle>
               <CardDescription className="text-lg">
-                Our comprehensive coastal monitoring dashboard is currently in development
+                Our comprehensive coastal monitoring dashboard is currently in
+                development
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -46,24 +75,33 @@ export default function Dashboard() {
                 <div className="text-center p-4 bg-ocean-light/10 rounded-lg">
                   <MapPin className="h-8 w-8 text-ocean-medium mx-auto mb-2" />
                   <p className="font-semibold">Interactive Maps</p>
-                  <p className="text-sm text-muted-foreground">Real-time coastal monitoring</p>
+                  <p className="text-sm text-muted-foreground">
+                    Real-time coastal monitoring
+                  </p>
                 </div>
                 <div className="text-center p-4 bg-ocean-light/10 rounded-lg">
                   <BarChart3 className="h-8 w-8 text-ocean-medium mx-auto mb-2" />
                   <p className="font-semibold">Analytics</p>
-                  <p className="text-sm text-muted-foreground">Threat assessment data</p>
+                  <p className="text-sm text-muted-foreground">
+                    Threat assessment data
+                  </p>
                 </div>
                 <div className="text-center p-4 bg-ocean-light/10 rounded-lg">
                   <Waves className="h-8 w-8 text-ocean-medium mx-auto mb-2" />
                   <p className="font-semibold">Live Alerts</p>
-                  <p className="text-sm text-muted-foreground">Instant notifications</p>
+                  <p className="text-sm text-muted-foreground">
+                    Instant notifications
+                  </p>
                 </div>
               </div>
-              
-              <Badge variant="outline" className="border-ocean-medium text-ocean-medium">
+
+              <Badge
+                variant="outline"
+                className="border-ocean-medium text-ocean-medium"
+              >
                 Beta Access Available Q2 2024
               </Badge>
-              
+
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/">
                   <Button variant="outline">
@@ -73,9 +111,10 @@ export default function Dashboard() {
                 </Link>
                 <Button>Request Beta Access</Button>
               </div>
-              
+
               <p className="text-sm text-muted-foreground">
-                Want to help build this page? Continue prompting to add more functionality!
+                Want to help build this page? Continue prompting to add more
+                functionality!
               </p>
             </CardContent>
           </Card>
