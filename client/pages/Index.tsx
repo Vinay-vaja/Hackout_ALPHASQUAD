@@ -616,7 +616,7 @@ export default function Index() {
               <h3 className="font-semibold mb-4">Product</h3>
               <ul className="space-y-2 text-white/70">
                 <li><a href="#features" className="hover:text-white transition-colors">Features</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Dashboard</a></li>
+                <li><a href="/dashboard" className="hover:text-white transition-colors">Dashboard</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">API</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
               </ul>
