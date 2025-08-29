@@ -477,10 +477,12 @@ export default function Index() {
               </div>
             </CardContent>
             <CardFooter className="bg-muted/50">
-              <Button className="w-full" size="lg">
-                <BarChart3 className="mr-2 h-5 w-5" />
-                Access Full Dashboard
-              </Button>
+              <a href="/dashboard" className="w-full">
+                <Button className="w-full" size="lg">
+                  <BarChart3 className="mr-2 h-5 w-5" />
+                  Access Full Dashboard
+                </Button>
+              </a>
             </CardFooter>
           </Card>
         </div>
