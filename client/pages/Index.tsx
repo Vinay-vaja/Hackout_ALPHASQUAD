@@ -625,7 +625,7 @@ export default function Index() {
             <div>
               <h3 className="font-semibold mb-4">Company</h3>
               <ul className="space-y-2 text-white/70">
-                <li><a href="#" className="hover:text-white transition-colors">About</a></li>
+                <li><a href="/about" className="hover:text-white transition-colors">About</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
                 <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
