@@ -10,6 +10,9 @@ import Index from "./pages/Index";
 import Dashboard from "./pages/Dashboard";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+// import bootstrap from "bootstrap/desc/cdn/bootstrap.min.css";
+// import { Refrigerator } from "lucide-react";
+// import { LogIn } from "lucide-react";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +27,12 @@ const App = () => (
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/about" element={<About />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+
+             {/* <Routes>
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+      </Routes> */}
+
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

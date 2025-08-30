@@ -142,7 +142,7 @@ export default function Index() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-ocean-medium"
+                className="border-white text-ocean-medium hover:bg-white hover:text-ocean-medium"
               >
                 <BarChart3 className="mr-2 h-5 w-5" />
                 View Live Dashboard
@@ -657,7 +657,7 @@ export default function Index() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="h-6 w-6 text-ocean-medium" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+91 9638550602</span>
                 </div>
               </div>
             </div>
